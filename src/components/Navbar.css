@@ -53,26 +53,26 @@
     /* color: #525F7F;
     font-weight: 5; */
     font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
 /* identical to box height, or 150% */
 
-text-align: center;
+    text-align: center;
 
 /* Text Color/Blue Grey */
 
-color: #525F7F;
+    color: #525F7F;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
-.nav-links:hover {
+/* .nav-links:hover {
     background-color: #1888ff;
     border-radius: 4px;
     transition: all 0.2s ease-out;
-}
+} */
 
 .fa-bars {
     color: #fff;
@@ -84,6 +84,13 @@ color: #525F7F;
 
 .login {
     margin-right: 30px;
+}
+
+.back {
+    background-color: #1888ff;
+    margin-top: 20px;
+    border-radius: 40%;
+    color: #fff;
 }
 
 @media screen and (min-width: 965px) {
@@ -128,10 +135,10 @@ color: #525F7F;
         display: table;
     }
 
-    .nave-links:hover {
+    /* .nave-links:hover {
         background-color: #1888ff;
         border-radius: 0;
-    }
+    } */
 
     .navbar-logo {
         position: absolute;

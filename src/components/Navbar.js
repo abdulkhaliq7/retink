@@ -22,7 +22,7 @@ function Navbar() {
         <>
             <nav className={navbar ? 'navbar active' : 'navbar'}>
                 <Link to='/' className='navbar-logo'>
-                    Poverty
+                    <img src="../images/Retink@2x.png" />
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -55,7 +55,7 @@ function Navbar() {
                     </li> */}
                 </ul>
                 <ul>
-                    <li className='nav-item login' >
+                    <li className='nav-item login back' >
                         <Link to='/contact-us' className='nav-links' onClick=
                         {closeMobileMenu}> 
                             Login
